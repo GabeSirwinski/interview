@@ -27,7 +27,15 @@ app.get("/data", (req, res) => {
   // have client make a request to this endpoint
   // Fetch data from https://dummyjson.com/products
   // Send data to client
-  // display data on client
+
+  // Display data on client:
+	// Create a responsive card component that:
+	// Displays a title, description, and button
+	// Stacks vertically on mobile (<768px)
+	// Shows inline on desktop
+	// Uses Flexbox or Grid
+	// Includes hover states
+
 })
 
 app.listen(port, () => {
